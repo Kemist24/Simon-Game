@@ -39,6 +39,16 @@ document.addEventListener("keypress", function()
     }
     
 });
+document.addEventListener("touchstart", function()
+{
+    if(started == false)
+    {
+        console.log("started");
+        started = true;
+        levelUp();
+    }
+    
+});
 
 
 
