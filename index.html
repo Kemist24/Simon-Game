@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;500;600;700&family=Pacifico&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="popup">
+        <img id="close" src="./CODE with IMAGES/Assets/img/close icon.png" alt="close">
+        <h2>Simon Game</h2>
+        <p>
+            Hi, This a small game made by my master Purvansh Rathore. 
+            <br> <u>Game Instructions</u> - Press any keyboard key to start the game and a color will blink and the level 1 starts suppose if orange blank then you have to click the same color inorder to pass on to the next level. In the next level again a color will blink now you need to click the previous color as well as the rececnty blinked color in the same order.
+            
+        </p>
+        <p class="enjoy">Hope you Enjoy!</p>
+        <div class="popupplay">
+            <a class="linked" href="https://www.linkedin.com/in/purvanshrathore/" target="_blank">LinkedIn</a>
+            <button id="close">PLAY</button>
+        </div>
+        
+    </div>
+    <section>
+        <h1>Simon Game</h1>
+        <h2 class = "gameinfo">Press any key to start the game</h2>
+        <p class ="high score"></p>
+        <div class="container">
+         <div class="boxes darkblue" type = "button" id="darkblue"></div>
+         <div class="boxes lighter" type = "button" id = "lighter"></div>
+         <div class="break"></div><!--break-->
+         <div class="boxes lighter2" type = "button" id="lighter2"></div>
+         <div class="boxes lightest" type = "button" id = "lightest"></div>
+        </div>
+        <br>
+        <br>
+    </section>
+
+    <div class="made">
+        <p>Made By Purvansh Rathore</p>
+    </div>
+  
+    <script src="app.js"></script>
+</body>
+</html>
