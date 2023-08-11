@@ -6,10 +6,10 @@
 }
 section{
     height: 100%;
-    background: linear-gradient(to bottom, rgb(223, 180, 38) , #3b8a14)
+    background: linear-gradient(to bottom, rgb(235, 169, 114) ,rgb(246, 92, 92))
 }
 body{
-    background-color: rgb(128, 178, 222);
+    background-color: rgb(188, 211, 228);
 }
 
 .made{
