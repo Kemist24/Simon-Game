@@ -140,6 +140,7 @@ h2{
 }
 
 .container .boxes{
+    touch-action: manipulation;
     height: 140px;
     width: 140px;
     border: 6px solid black;
